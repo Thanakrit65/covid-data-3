@@ -1,0 +1,74 @@
+.contrainer{
+    width: 90%;
+    height: 90%;
+    min-height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px ;
+    padding:15px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;box-shadow: rgba(0, 0, 0, 0.25) 0px 26px 30px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.item{
+
+    width: 100%;
+    height: 250px;
+    gap:10px 
+}
+
+.zone1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.itemzone1{
+    width: 35%;
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+}
+.dashboard{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.zone2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemzone2{
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.dashboard{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.zone3{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* เพิ่มระยะห่างจากขอบบน */
+}
+.itemzone3 {
+    max-height: 300px; /* Set this value according to your layout */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.dashboard{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

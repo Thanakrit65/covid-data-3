@@ -1,0 +1,47 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS to remove the internal spinner arrows for number inputs */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield; /* Removes spinner in Firefox */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 16px; /* Add padding for spacing */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+main > *:first-child {
+  flex-grow: 1; /* Allows main content to expand */
+}
+
+/* Accessibility focus style for inputs */
+input:focus {
+  outline: 2px solid #3b82f6; /* Tailwind's blue-500 */
+  outline-offset: 2px;
+}
+
+/* Optional: Add background color for body */
+body {
+  background-color: #f9fafb; /* Light gray background */
+}

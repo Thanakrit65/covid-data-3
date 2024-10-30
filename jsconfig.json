@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",  // เพิ่ม baseUrl
+    "paths": {
+      "@/*": ["src/*"] // แก้ไขเส้นทางเป็น src/*
+    }
+  }
+}
